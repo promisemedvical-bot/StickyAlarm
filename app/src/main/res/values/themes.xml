@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.StickyAlarm" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Theme.StickyAlarm.Alarm" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/ink_black</item>
+    </style>
+</resources>
