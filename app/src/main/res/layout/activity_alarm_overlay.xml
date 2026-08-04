@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/auto"
+    android:id="@+id/alarmRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bright_orange">
+
+    <TextView
+        android:id="@+id/txtAlarmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAlarmBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <Button android:id="@+id/btnSnooze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Snooze 5m" />
+        <Button android:id="@+id/btnOpenNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Open Note" />
+        <Button android:id="@+id/btnDismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dismiss" />
+    </LinearLayout>
+</LinearLayout>
